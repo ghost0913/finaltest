@@ -40,14 +40,26 @@
     </ListView>
 
     <ImageButton
-        android:id="@+id/main_btn_more"
+    android:id="@+id/main_btn_more"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="20dp"
+    android:background="@drawable/main_addbtn_bg"
+    app:srcCompat="@mipmap/add"
+    android:onClick="addSticker"/>
+
+    <ImageButton
+        android:id="@+id/main_btn_map"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_alignParentRight="true"
+        android:layout_toLeftOf="@id/main_btn_more"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
         android:background="@drawable/main_addbtn_bg"
         app:srcCompat="@mipmap/add"
-        android:onClick="addSticker"/>
+        android:onClick="maptest"/>
+
 </RelativeLayout>
 

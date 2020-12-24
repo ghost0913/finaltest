@@ -1,10 +1,54 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/grey_f3f3f3">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/maincolor3"
+    android:padding="10dp">
 
     <!-- TODO: Update blank fragment layout -->
 
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/dialog_pushpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="186dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@mipmap/pushpin" />
+
+    <TextView
+        android:id="@+id/dialog_tv"
+        android:layout_width="396dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="95dp"
+        android:gravity="center"
+        android:text="@string/publish_success"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/dialog_btn"
+        android:layout_width="62dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/publishbtn_bg"
+        android:text="确定"
+        android:onClick="ensure"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

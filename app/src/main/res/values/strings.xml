@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">迹忆</string>
+    <string name="chooseLocation">选择定位</string>
+    <string name="addLable">添加标签</string>
+    <string name="queryHint">搜索田野/秋天试试看</string>
+    <string name="username">JI YI</string>
+    <string name="publish_success">便利贴发布成功！</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
